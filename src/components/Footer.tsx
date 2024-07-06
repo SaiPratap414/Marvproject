@@ -202,7 +202,7 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
             <div className={styles.margin7}>
               <div className={styles.container21}>
                 <div className={styles.container22}>
-                  <div className={styles.goPolaGo}>Go Pola Go!</div>
+                  <div className={styles.goPolaGo}>Go Marv Go!</div>
                 </div>
                 <div className={styles.container23}>
                   <div className={styles.margin8}>

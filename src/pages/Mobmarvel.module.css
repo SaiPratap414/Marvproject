@@ -140,7 +140,7 @@
   top: 621px;
   left: -37px;
   border-bottom: 3px solid var(--polaonbasecom-black);
-  width: 450.7px;
+  width: calc(100% + 74px);
   flex-direction: row;
   text-align: center;
   font-size: var(--font-size-base);
