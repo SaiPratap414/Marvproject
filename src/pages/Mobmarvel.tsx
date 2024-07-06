@@ -59,7 +59,7 @@ const Mobmarvel: FunctionComponent = () => {
               <img
                 className={styles.crowmAnimationIcon}
                 alt=""
-                src="/img/crowm-animation@2x.png"
+                src="/img/c.gif"
               />
             </div>
           </div>
@@ -773,10 +773,12 @@ const Mobmarvel: FunctionComponent = () => {
             <div className={styles.meowjomicsTitle}>
               <div className={styles.meownomics}>Meownomics</div>
               <div className={styles.meetPolaThe1}>
-                Meet Pola, the latest ruler of the icy domains of
-                cryptocurrency, a royal polar bear who's more chilled than the
-                arctic ice and cooler than the other side of the pillow. Bornon
-                the vast, frostbitten landscapes of the Base Chain
+                Marv's journey in the Solana world is a testament to his unique
+                 approach to leadership. He continues to engage with his community,
+                  embracing their support and feedback. His dedication to
+                  decentralization and community growth remains at the heart of his
+                  reign, inspiring others to join him in creating a vibrant and
+                  inclusiveecosystem.
               </div>
             </div>
             <div className={styles.taxonomies}>

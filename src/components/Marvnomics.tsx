@@ -21,7 +21,7 @@ const Marvnomics: FunctionComponent<MarvnomicsType> = ({ className = "" }) => {
         embracing their support and feedback. His dedication to
         decentralization and community growth remains at the heart of his
         reign, inspiring others to join him in creating a vibrant and
-        inclusive ecosystem.
+        inclusiveecosystem.
       </div>
       <div className={styles.marvAndPolaImage}>
         <img
