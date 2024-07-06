@@ -15,7 +15,7 @@
   bottom: 10px;
 }
 .frameChild {
-  width: 390px;
+  width: 440px;
   height: 483px;
   position: relative;
   background-color: var(--color-seagreen);
@@ -109,6 +109,7 @@
   gap: var(--gap-8xs);
   max-width: 100%;
   height: 100vh; /* Adjust height to fit the screen */
+  width: 100%;
 }
 
 .aboutUs,
@@ -145,6 +146,8 @@
   font-size: var(--font-size-base);
   color: var(--polaonbasecom-nero);
   font-family: var(--font-patrick-hand);
+  background-color: var(--color-seagreen);
+  height: 100%;
 }
 .headerContentChild {
   width: 50px;
@@ -3136,6 +3139,7 @@
   align-items: flex-end;
   padding: 237px var(--padding-31xl) var(--padding-4xl) 0;
   gap: 37px;
+  background-color: var();
 }
 .marvWebLastPage0001,
 .marvWebSiteBagrount0001 {
@@ -3231,6 +3235,7 @@
   justify-content: flex-start;
   position: relative;
   z-index: 1;
+  font-family: var(--font-pure-joy);
 }
 .groupIcon,
 .marvWebNewSet00091 {
@@ -3314,6 +3319,7 @@
   font-size: 34px;
   color: var(--polaonbasecom-nero);
   font-family: var(--font-acme);
+  background-color: var(--color-darksalmon);
 }
 .meetPolaThe1,
 .meownomics {
