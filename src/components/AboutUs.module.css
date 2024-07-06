@@ -1,0 +1,242 @@
+.groupIcon {
+  align-self: stretch;
+  height: 142px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.aboutUsContent {
+  margin-left: -150.8px;
+  height: 442px;
+  width: 148px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-422xl) 0 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.aNewKing {
+  margin: 0;
+  height: 231px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 76.8px;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.crowmAnimationIcon {
+  height: 161.6px;
+  width: 161.6px;
+  position: absolute;
+  margin: 0 !important;
+  top: -120px;
+  left: -5px;
+  object-fit: contain;
+  z-index: 1;
+  transform: rotate(-15deg); /* Adjust the degree of rotation as needed */
+}
+
+.aNewKingHasRisenParent {
+  position: absolute;
+  top: 60.5px;
+  left: 0;
+  width: 418px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.marv0005Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.marvImage {
+  position: absolute;
+  top: 0;
+  left: 199px;
+  width: 208px;
+  height: 153.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.frameParent,
+.marvAFrog {
+  position: relative;
+  flex-shrink: 0;
+}
+.frameParent {
+  height: 311.5px;
+  width: 457.2px;
+  max-width: 100%;
+  margin-left: 40px;
+}
+.marvAFrog {
+  align-self: stretch;
+  line-height: 34px;
+}
+.blankLine,
+.despiteHisQuirks {
+  margin: 0;
+}
+.despiteHisQuirksContainer {
+  margin-top: -2px;
+  height: 204px;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.01px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.despiteHisQuirksMarvHasRWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  color: var(--polaonbasecom-nero);
+}
+.groupIcon1 {
+  width: 148.4px;
+  height: 142px;
+  position: absolute;
+  margin: 0 !important;
+  right: -9.3px;
+  bottom: -62px;
+  z-index: 1;
+}
+.aboutUsInner,
+.marvAFrogWithADistinctPParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.marvAFrogWithADistinctPParent {
+  align-self: stretch;
+  padding: 0 var(--padding-3xs);
+  position: relative;
+}
+.aboutUsInner {
+  width: 775px;
+  padding: var(--padding-51xl) 0 0;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-goldenrod);
+  font-family: var(--font-patrick-hand);
+  margin-left: 150px;
+}
+.frameChild,
+.frameItem {
+  position: absolute;
+  height: 57.69%;
+  width: 98.31%;
+  top: 21.26%;
+  right: 1.69%;
+  bottom: 21.05%;
+  left: 0;
+  background-color: var(--color-lemonchiffon);
+  overflow: hidden;
+}
+.frameItem {
+  height: 71.86%;
+  width: 40.55%;
+  top: 0;
+  right: -0.18%;
+  bottom: 28.14%;
+  left: 59.63%;
+  transform: rotate(5.4deg);
+  transform-origin: 0 0;
+}
+.frameGroup {
+  height: 197.6px;
+  width: 1464.8px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.aboutUs {
+  width: 100%;
+  background-color: var(--color-seagreen);
+  border-bottom: 4px solid var(--polaonbasecom-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-149xl) var(--padding-74xl) var(--padding-110xl);
+  gap: var(--gap-10xs-8);
+  max-width: 2160px;
+  text-align: center;
+  font-size: var(--font-size-57xl);
+  color: var(--color-lemonchiffon);
+  font-family: var(--font-pure-joy);
+}
+@media screen and (max-width: 1350px) {
+  .aboutUs {
+    flex-wrap: wrap;
+    padding-left: var(--padding-27xl);
+    padding-right: var(--padding-27xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .aboutUsContent {
+    padding-top: var(--padding-268xl);
+    box-sizing: border-box;
+  }
+  .aNewKing {
+    font-size: var(--font-size-42xl);
+    line-height: 61px;
+  }
+  .aboutUs {
+    padding: var(--padding-90xl) var(--padding-4xl) var(--padding-65xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .aNewKing {
+    font-size: var(--font-size-27xl);
+    line-height: 46px;
+  }
+  .despiteHisQuirksContainer,
+  .marvAFrog {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+  .aboutUsInner {
+    padding-top: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+}

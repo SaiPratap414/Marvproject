@@ -1,0 +1,676 @@
+.roaMap1,
+.roadmapp {
+  position: relative;
+  max-width: 100%;
+}
+.roadmapp {
+  width: 328px;
+  line-height: 77px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.roaMap1 {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  margin-right: 100px;
+}
+.starsIcon {
+  width: 147.2px;
+  height: 127.2px;
+  right: -28.8px;
+  bottom: -32.6px;
+  z-index: 2;
+}
+.roadMapImageContentChild,
+.starsIcon,
+.starsIcon1 {
+  position: absolute;
+  margin: 0 !important;
+  object-fit: contain;
+}
+.starsIcon1 {
+  width: 111.6px;
+  height: 195.8px;
+  bottom: -122.5px;
+  left: 40.5px;
+  z-index: 1;
+}
+.roadMapImageContentChild {
+  width: 117.1px;
+  height: 248.8px;
+  right: 2px;
+  bottom: -103px;
+  z-index: 3;
+}
+.roadMapImageContent {
+  align-self: stretch;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.roadmapContent,
+.roadmappParent {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.roadmapContent {
+  align-self: stretch;
+  height: 705.8px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.roadmappParent {
+  width: 787px;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-11xs-2);
+}
+.roadmapInner {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.starsIcon2 {
+  width: 137.1px;
+  height: 140px;
+  margin: 0 !important;
+  position: absolute;
+  right: 491.5px;
+  bottom: 921px;
+  object-fit: contain;
+}
+.meow {
+  margin: 0;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 76.8px;
+  font-weight: 400;
+  font-family: inherit;
+  justify-content: center;
+}
+.imPola,
+.meow,
+.meowParent {
+  display: flex;
+  align-items: center;
+}
+.imPola {
+  align-self: stretch;
+  width: 156px;
+  position: relative;
+  font-size: var(--font-size-29xl);
+  line-height: 76.8px;
+  font-family: var(--font-annie-use-your-telescope);
+  justify-content: center;
+}
+.meowParent {
+  height: 77px;
+  width: 380px;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-family: var(--font-anton);
+}
+.meow1 {
+  margin: 0;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 76.8px;
+  font-weight: 400;
+  font-family: inherit;
+  justify-content: center;
+}
+.imPola1,
+.meow1,
+.meowGroup {
+  display: flex;
+  align-items: center;
+}
+.imPola1 {
+  align-self: stretch;
+  width: 156px;
+  position: relative;
+  font-size: var(--font-size-29xl);
+  line-height: 76.8px;
+  font-family: var(--font-annie-use-your-telescope);
+  justify-content: center;
+}
+.meowGroup {
+  height: 77px;
+  width: 380px;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-family: var(--font-anton);
+}
+.meow2 {
+  margin: 0;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 76.8px;
+  font-weight: 400;
+  font-family: inherit;
+  justify-content: center;
+}
+.imPola2,
+.meow2,
+.meowContainer {
+  display: flex;
+  align-items: center;
+}
+.imPola2 {
+  align-self: stretch;
+  width: 156px;
+  position: relative;
+  font-size: var(--font-size-29xl);
+  line-height: 76.8px;
+  font-family: var(--font-annie-use-your-telescope);
+  justify-content: center;
+}
+.meowContainer {
+  height: 77px;
+  width: 380px;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-family: var(--font-anton);
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+  overflow: hidden; /* Hide horizontal scroll bar */
+  justify-content: flex-start;
+  gap: var(--gap-27xl);
+  position: relative; /* For positioning the moving frame */
+}
+
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.movingFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-27xl);
+  white-space: nowrap; /* Prevent line breaks */
+  box-shadow: 0 29px 26.2px 12px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(90deg, #9796f0, #fbc7d4);
+  border-top: 4px solid var(--polaonbasecom-black);
+  border-bottom: 4px solid var(--polaonbasecom-black);
+  box-sizing: border-box;
+  padding: var(--padding-mid) 0;
+  min-height: 119px;
+  font-size: var(--font-size-49xl);
+  color: var(--polaonbasecom-black);
+  font-family: var(--font-baloo-da);
+}
+
+.marv, .imMarv, .marvParent, .marv1, .imMarv1, .marvGroup, .marv2, .imMarv2, .marvContainer, .marv3, .imMarv3, .frameDiv, .marv4, .imMarv4, .marvParent1, .marv5, .imMarv5, .marvParent2, .marv6, .imMarv6, .marvParent3, .marv7, .imMarv7, .marvParent4, .marv8, .imMarv8, .marvParent5, .marv9, .imMarv9, .marvParent6, .marv10, .imMarv10, .marvParent7, .marv11, .imMarv11, .marvParent8, .imMarv12, .marvParent9, .marv13, .imMarv13, .marvParent10 {
+  display: flex;
+  align-items: center;
+}
+
+.marv, .marv1, .marv2, .marv3, .marv4, .marv5, .marv6, .marv7, .marv8, .marv9, .marv10, .marv11, .marv12, .marv13 {
+  margin: 0;
+  height: 77px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 76.8px;
+  font-weight: 400;
+  font-family: inherit;
+  justify-content: center;
+  min-width: 143px;
+}
+
+.imMarv, .imMarv1, .imMarv2, .imMarv3, .imMarv4, .imMarv5, .imMarv6, .imMarv7, .imMarv8, .imMarv9, .imMarv10, .imMarv11, .imMarv12, .imMarv13 {
+  height: 77px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-29xl);
+  line-height: 76.8px;
+  font-family: var(--font-charm);
+  justify-content: center;
+  min-width: 146px;
+}
+
+.marvParent, .marvGroup, .marvContainer, .frameDiv, .marvParent1, .marvParent2, .marvParent3, .marvParent4, .marvParent5, .marvParent6, .marvParent7, .marvParent8, .marvParent9, .marvParent10 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; /* Prevent line breaks */
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+  animation: marquee 10s linear infinite; /* Apply marquee animation */
+}
+
+
+
+.roadmapChild {
+  width: 907.9px;
+  height: 905.9px;
+  margin: 0 !important;
+  position: absolute;
+  top: 768.1px;
+  right: -146.3px;
+  object-fit: contain;
+  z-index: 1;
+}
+.starsIcon3 {
+  width: 158px;
+  height: 178.3px;
+  bottom: 613.5px;
+  left: 250.3px;
+}
+.frameIcon,
+.roadmapChild1,
+.roadmapItem,
+.starsIcon3,
+.vectorIcon {
+  position: absolute;
+  margin: 0 !important;
+  object-fit: contain;
+}
+.roadmapItem {
+  width: 942.2px;
+  height: 935.4px;
+  bottom: 684.6px;
+  left: -38px;
+  z-index: 2;
+}
+.frameIcon,
+.roadmapChild1,
+.vectorIcon {
+  z-index: 3;
+}
+.frameIcon {
+  width: 900px;
+  height: 900px;
+  right: -100px;
+  bottom: 60px;
+}
+.roadmapChild1,
+.vectorIcon {
+  width: 117.1px;
+  height: 248.8px;
+  bottom: 1281.2px;
+  left: 636px;
+}
+.roadmapChild1 {
+  bottom: 570.2px;
+  left: 648px;
+  z-index: 4;
+}
+.roadmap {
+  background-color: var(--color-darkslateblue);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-98xl-8) 0 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-1783xl-2);
+  width: 100%;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--polaonbasecom-nero);
+  font-family: var(--font-acme);
+}
+
+@media screen and (max-width: 1350px) {
+  .roadmap {
+    padding-top: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .imPola,
+  .meow,
+  .roadmapp {
+    font-size: var(--font-size-19xl);
+    line-height: 61px;
+  }
+  .imPola,
+  .meow {
+    font-size: var(--font-size-35xl);
+  }
+  .imPola {
+    font-size: var(--font-size-19xl);
+  }
+  .imPola1,
+  .meow1,
+  .meow2 {
+    font-size: var(--font-size-35xl);
+    line-height: 61px;
+  }
+  .imPola1,
+  .meow2 {
+    font-size: var(--font-size-19xl);
+  }
+  .meow2 {
+    font-size: var(--font-size-35xl);
+  }
+  .imMarv,
+  .imPola2,
+  .marv {
+    font-size: var(--font-size-19xl);
+    line-height: 61px;
+  }
+  .imMarv,
+  .marv {
+    font-size: var(--font-size-35xl);
+  }
+  .imMarv {
+    font-size: var(--font-size-19xl);
+  }
+  .imMarv1,
+  .marv1,
+  .marv2 {
+    font-size: var(--font-size-35xl);
+    line-height: 61px;
+  }
+  .imMarv1,
+  .marv2 {
+    font-size: var(--font-size-19xl);
+  }
+  .marv2 {
+    font-size: var(--font-size-35xl);
+  }
+  .imMarv2,
+  .imMarv3,
+  .marv3 {
+    font-size: var(--font-size-19xl);
+    line-height: 61px;
+  }
+  .imMarv3,
+  .marv3 {
+    font-size: var(--font-size-35xl);
+  }
+  .imMarv3 {
+    font-size: var(--font-size-19xl);
+  }
+  .imMarv4,
+  .marv4,
+  .marv5 {
+    font-size: var(--font-size-35xl);
+    line-height: 61px;
+  }
+  .imMarv4,
+  .marv5 {
+    font-size: var(--font-size-19xl);
+  }
+  .marv5 {
+    font-size: var(--font-size-35xl);
+  }
+  .imMarv5,
+  .imMarv6,
+  .marv6 {
+    font-size: var(--font-size-19xl);
+    line-height: 61px;
+  }
+  .imMarv6,
+  .marv6 {
+    font-size: var(--font-size-35xl);
+  }
+  .imMarv6 {
+    font-size: var(--font-size-19xl);
+  }
+  .imMarv7,
+  .marv7,
+  .marv8 {
+    font-size: var(--font-size-35xl);
+    line-height: 61px;
+  }
+  .imMarv7,
+  .marv8 {
+    font-size: var(--font-size-19xl);
+  }
+  .marv8 {
+    font-size: var(--font-size-35xl);
+  }
+  .imMarv8,
+  .imMarv9,
+  .marv9 {
+    font-size: var(--font-size-19xl);
+    line-height: 61px;
+  }
+  .imMarv9,
+  .marv9 {
+    font-size: var(--font-size-35xl);
+  }
+  .imMarv9 {
+    font-size: var(--font-size-19xl);
+  }
+  .imMarv10,
+  .marv10 {
+    font-size: var(--font-size-35xl);
+    line-height: 61px;
+  }
+  .imMarv10 {
+    font-size: var(--font-size-19xl);
+  }
+  .imMarv11,
+  .marv11 {
+    font-size: var(--font-size-35xl);
+    line-height: 61px;
+  }
+  .imMarv11 {
+    font-size: var(--font-size-19xl);
+  }
+  .imMarv12,
+  .marv12 {
+    font-size: var(--font-size-35xl);
+    line-height: 61px;
+  }
+  .imMarv12 {
+    font-size: var(--font-size-19xl);
+  }
+  .imMarv13,
+  .marv13 {
+    font-size: var(--font-size-35xl);
+    line-height: 61px;
+  }
+  .imMarv13 {
+    font-size: var(--font-size-19xl);
+  }
+  .frameParent {
+    gap: var(--gap-4xl);
+  }
+  .roadmap {
+    gap: var(--gap-882xl);
+    padding-top: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .roadmapp {
+    font-size: var(--font-size-10xl);
+    line-height: 46px;
+  }
+  .imPola,
+  .meow,
+  .meow1 {
+    font-size: var(--font-size-22xl);
+    line-height: 46px;
+  }
+  .imPola,
+  .meow1 {
+    font-size: var(--font-size-10xl);
+  }
+  .meow1 {
+    font-size: var(--font-size-22xl);
+  }
+  .imPola1,
+  .imPola2,
+  .meow2 {
+    font-size: var(--font-size-10xl);
+    line-height: 46px;
+  }
+  .imPola2,
+  .meow2 {
+    font-size: var(--font-size-22xl);
+  }
+  .imPola2 {
+    font-size: var(--font-size-10xl);
+  }
+  .imMarv,
+  .marv,
+  .marv1 {
+    font-size: var(--font-size-22xl);
+    line-height: 46px;
+  }
+  .imMarv,
+  .marv1 {
+    font-size: var(--font-size-10xl);
+  }
+  .marv1 {
+    font-size: var(--font-size-22xl);
+  }
+  .imMarv1,
+  .imMarv2,
+  .marv2 {
+    font-size: var(--font-size-10xl);
+    line-height: 46px;
+  }
+  .imMarv2,
+  .marv2 {
+    font-size: var(--font-size-22xl);
+  }
+  .imMarv2 {
+    font-size: var(--font-size-10xl);
+  }
+  .imMarv3,
+  .marv3,
+  .marv4 {
+    font-size: var(--font-size-22xl);
+    line-height: 46px;
+  }
+  .imMarv3,
+  .marv4 {
+    font-size: var(--font-size-10xl);
+  }
+  .marv4 {
+    font-size: var(--font-size-22xl);
+  }
+  .imMarv4,
+  .imMarv5,
+  .marv5 {
+    font-size: var(--font-size-10xl);
+    line-height: 46px;
+  }
+  .imMarv5,
+  .marv5 {
+    font-size: var(--font-size-22xl);
+  }
+  .imMarv5 {
+    font-size: var(--font-size-10xl);
+  }
+  .marvParent2 {
+    flex-wrap: wrap;
+  }
+  .imMarv6,
+  .marv6 {
+    font-size: var(--font-size-22xl);
+    line-height: 46px;
+  }
+  .imMarv6 {
+    font-size: var(--font-size-10xl);
+  }
+  .marvParent3 {
+    flex-wrap: wrap;
+  }
+  .imMarv7,
+  .marv7,
+  .marv8 {
+    font-size: var(--font-size-22xl);
+    line-height: 46px;
+  }
+  .imMarv7,
+  .marv8 {
+    font-size: var(--font-size-10xl);
+  }
+  .marv8 {
+    font-size: var(--font-size-22xl);
+  }
+  .imMarv8,
+  .imMarv9,
+  .marv9 {
+    font-size: var(--font-size-10xl);
+    line-height: 46px;
+  }
+  .imMarv9,
+  .marv9 {
+    font-size: var(--font-size-22xl);
+  }
+  .imMarv9 {
+    font-size: var(--font-size-10xl);
+  }
+  .imMarv10,
+  .marv10 {
+    font-size: var(--font-size-22xl);
+    line-height: 46px;
+  }
+  .imMarv10 {
+    font-size: var(--font-size-10xl);
+  }
+  .imMarv11,
+  .marv11 {
+    font-size: var(--font-size-22xl);
+    line-height: 46px;
+  }
+  .imMarv11 {
+    font-size: var(--font-size-10xl);
+  }
+  .imMarv12,
+  .marv12 {
+    font-size: var(--font-size-22xl);
+    line-height: 46px;
+  }
+  .imMarv12 {
+    font-size: var(--font-size-10xl);
+  }
+  .imMarv13,
+  .marv13 {
+    font-size: var(--font-size-22xl);
+    line-height: 46px;
+  }
+  .imMarv13 {
+    font-size: var(--font-size-10xl);
+  }
+  .roadmap {
+    gap: var(--gap-432xl);
+  }
+}

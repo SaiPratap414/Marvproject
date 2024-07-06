@@ -1,0 +1,67 @@
+.marvWebNewSet0005 {
+  width: 154px;
+  height: 154px;
+  position: relative;
+  object-fit: contain;
+}
+.axes {
+  text-transform: lowercase;
+}
+.taxesTxt {
+  line-break: anywhere;
+  width: 100%;
+}
+.taxes {
+  width: 60px;
+  height: 24px;
+  position: relative;
+  line-height: 76.8px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.div,
+.marvWebNewSet0005Parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div {
+  width: 72px;
+  height: 37px;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  line-height: 76.8px;
+  font-family: var(--font-pure-joy);
+  text-align: center;
+  flex-shrink: 0;
+}
+.marvWebNewSet0005Parent {
+  width: 275px;
+  border-radius: var(--br-25xl);
+  background: linear-gradient(90deg, #ece9e6, #fff);
+  flex-direction: column;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-6xs);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-patrick-hand);
+}
+@media screen and (max-width: 800px) {
+  .div {
+    font-size: var(--font-size-10xl);
+    line-height: 61px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .taxes {
+    font-size: var(--font-size-lgi);
+    line-height: 61px;
+  }
+  .div {
+    font-size: var(--font-size-3xl);
+    line-height: 46px;
+  }
+}

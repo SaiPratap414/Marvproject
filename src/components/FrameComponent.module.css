@@ -1,0 +1,59 @@
+.marvWebNewSet0004 {
+  width: 154px;
+  height: 154px;
+  position: relative;
+  object-fit: contain;
+}
+.totalSupply {
+  width: 134px;
+  height: 24px;
+  position: relative;
+  line-height: 76.8px;
+  text-transform: capitalize;
+  flex-shrink: 0;
+}
+.m,
+.marvWebNewSet0004Parent,
+.totalSupply {
+  display: flex;
+  align-items: center;
+}
+.m {
+  width: 142px;
+  height: 37px;
+  position: relative;
+  font-size: var(--font-size-17xl);
+  line-height: 76.8px;
+  font-family: var(--font-pure-joy);
+  flex-shrink: 0;
+}
+.marvWebNewSet0004Parent {
+  width: 275px;
+  border-radius: var(--br-25xl);
+  background: linear-gradient(90deg, #ece9e6, #fff);
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-2xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-patrick-hand);
+}
+@media screen and (max-width: 800px) {
+  .m {
+    font-size: var(--font-size-10xl);
+    line-height: 61px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .totalSupply {
+    font-size: var(--font-size-lgi);
+    line-height: 61px;
+  }
+  .m {
+    font-size: var(--font-size-3xl);
+    line-height: 46px;
+  }
+}
