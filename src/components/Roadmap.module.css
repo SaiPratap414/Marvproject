@@ -213,7 +213,7 @@
 }
 
 @keyframes marquee {
-  0% { transform: translateX(100%); }
+  0% { transform: translateX(0%); }
   100% { transform: translateX(-100%); }
 }
 
@@ -272,7 +272,7 @@
   justify-content: flex-start;
   gap: var(--gap-base);
   max-width: 100%;
-  animation: marquee 10s linear infinite; /* Apply marquee animation */
+  animation: marquee 2s linear infinite; /* Apply marquee animation */
 }
 
 
