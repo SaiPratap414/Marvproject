@@ -66,25 +66,19 @@
   width: 100%; /* Ensure the parent takes up the full width */
   overflow-x: hidden; /* Prevent horizontal scrolling */
 }
-
 .conteTWrapper {
   max-width: 1200px; /* Set a maximum width */
   width: 100%; /* Ensure it takes up the full width up to the maximum */
   display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: center;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
   margin: 0 auto; /* Center the container */
+  padding: 0 20px; /* Adjust padding as needed */
 }
 
-.conteT,
-.conteTWrapper {
-  display: flex;
-  align-items: flex-start;
-  max-width: 100%;
-}
 .conteT {
-  width: 803px;
+  width: 100%; /* Take full width of parent */
+  max-width: 803px; /* Limit max width */
   flex-direction: column;
   justify-content: flex-start;
   position: relative;
@@ -92,11 +86,7 @@
   text-align: center;
   display: flex;
 }
-.conteTWrapper {
-  width: 1167px;
-  flex-direction: row;
-  justify-content: center;
-}
+
 .marvWebNewSet0002 {
   width: 154px;
   height: 154px;

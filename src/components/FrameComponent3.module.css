@@ -50,7 +50,6 @@
   position: relative;
 }
 .content,
-.m,
 .m1 {
   margin: 0 !important;
   position: absolute;
@@ -66,7 +65,7 @@
   padding: 0 0 var(--padding-185xl-3);
   box-sizing: border-box;
 }
-.m,
+
 .m1 {
   height: 98.8px;
   font-size: inherit;
@@ -78,11 +77,7 @@
   transform: rotate(-4.1deg);
   transform-origin: 0 0;
 }
-.m {
-  right: 6.9px;
-  bottom: -0.32px;
-  filter: blur(4px);
-}
+
 .m1 {
   top: 5.52px;
   left: 0;
@@ -107,7 +102,7 @@
   padding: 0 var(--padding-2xl) 0 0;
   box-sizing: border-box;
 }
-.a,
+
 .a1 {
   margin: 0 !important;
   height: 98.8px;
@@ -122,11 +117,7 @@
   transform: rotate(-4.1deg);
   transform-origin: 0 0;
 }
-.a {
-  right: 6.9px;
-  bottom: -0.32px;
-  filter: blur(4px);
-}
+
 .a1 {
   top: 5.52px;
   left: 0;
@@ -414,65 +405,78 @@
   color: var(--polaonbasecom-black);
   font-family: var(--font-pure-joy);
 }
-@media screen and (max-width: 1350px) {
+/* FrameComponent3.module.css */
+
+/* Adjustments for screens above 1440px wide */
+@media screen and (min-width: 1441px) {
   .heroContentParent {
-    gap: var(--gap-59xl);
+    gap: var(--gap-137xl-9); /* Adjust the gap between elements */
   }
 }
-@media screen and (max-width: 1125px) {
+
+/* Adjustments for screens below 1440px wide but above 1200px */
+@media screen and (max-width: 1440px) {
+  .heroContentParent {
+    gap: var(--gap-59xl); /* Adjust the gap between elements */
+  }
+}
+
+/* Adjustments for screens below 1200px wide but above 800px */
+@media screen and (max-width: 1200px) {
   .heroContent,
   .marvWebRemovedBg00011 {
-    flex: 1;
+    flex: 1; /* Make sure content and images are flexible */
   }
   .heroContentParent {
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Wrap content to fit smaller screens */
   }
 }
+
+/* Adjustments for screens below 800px wide but above 450px (tablet screens) */
 @media screen and (max-width: 800px) {
   .heroContent {
-    min-width: 100%;
+    min-width: 100%; /* Ensure content takes full width */
   }
-  .a,
   .a1,
-  .m,
   .m1,
-  .r,
   .r1,
-  .v,
   .v1 {
-    font-size: var(--font-size-69xl);
-    line-height: 22px;
+    font-size: var(--font-size-69xl); /* Adjust font size */
+    line-height: 22px; /* Adjust line height */
   }
   .frameGroup {
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* Allow content to wrap */
   }
   .heroDescriptionContentParent {
-    gap: var(--gap-10xl);
+    gap: var(--gap-10xl); /* Adjust gap between elements */
   }
   .frameWrapper {
-    min-width: 100%;
+    min-width: 100%; /* Ensure content takes full width */
   }
   .heroContentParent {
-    gap: var(--gap-20xl);
+    gap: var(--gap-20xl); /* Adjust the gap between elements */
   }
 }
+
+/* Adjustments for screens below 450px wide (mobile screens) */
 @media screen and (max-width: 450px) {
-  .a,
   .a1,
-  .m,
   .m1,
-  .r,
   .r1,
-  .v,
   .v1 {
-    font-size: var(--font-size-36xl);
-    line-height: 15px;
+    font-size: var(--font-size-36xl); /* Adjust font size */
+    line-height: 15px; /* Adjust line height */
   }
   .marvIsAContainer {
-    font-size: var(--font-size-lgi);
-    line-height: 26px;
+    font-size: var(--font-size-lgi); /* Adjust font size */
+    line-height: 26px; /* Adjust line height */
   }
   .heroContentParent {
-    gap: var(--gap-xl);
+    gap: var(--gap-xl); /* Adjust the gap between elements */
+  }
+  
+  /* Ensure background includes all content and images */
+  .marvWebRemovedBg00011 {
+    height: auto;
   }
 }

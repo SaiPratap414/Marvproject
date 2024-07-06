@@ -11,37 +11,35 @@ export type MarvnomicsType = {
 const Marvnomics: FunctionComponent<MarvnomicsType> = ({ className = "" }) => {
   return (
     <section className={[styles.marvnomics, className].join(" ")} data-scroll-to="Marvnomics">
-      <div className="parent-container">
-  <div className={styles.conteTWrapper}>
-    <div className={styles.conteT}>
-      <div className={styles.marvnomics1}>MARVNOMICS</div>
-      <div className={styles.marvsJourneyIn}>
-        Marv's journey in the Solana world is a testament to his unique
-        approach to leadership. He continues to engage with his community,
-        embracing their support and feedback. His dedication to
-        decentralization and community growth remains at the heart of his
-        reign, inspiring others to join him in creating a vibrant and
-        inclusiveecosystem.
+      <div className={styles.conteTWrapper}>
+        <div className={styles.conteT}>
+          <div className={styles.marvnomics1}>MARVNOMICS</div>
+          <div className={styles.marvsJourneyIn}>
+            Marv's journey in the Solana world is a testament to his unique
+            approach to leadership. He continues to engage with his community,
+            embracing their support and feedback. His dedication to
+            decentralization and community growth remains at the heart of his
+            reign, inspiring others to join him in creating a vibrant and
+            inclusive ecosystem.
+          </div>
+          <div className={styles.marvAndPolaImage}>
+            <img
+              className={styles.polaMarv0002Icon}
+              loading="lazy"
+              alt=""
+              src="/pola-marv0002@2x.png"
+            />
+          </div>
+          <div className={styles.firstPageImage}>
+            <img
+              className={styles.firstPage0005Icon}
+              loading="lazy"
+              alt=""
+              src="/first-page-0005@2x.png"
+            />
+          </div>
+        </div>
       </div>
-      <div className={styles.marvAndPolaImage}>
-        <img
-          className={styles.polaMarv0002Icon}
-          loading="lazy"
-          alt=""
-          src="/pola-marv0002@2x.png"
-        />
-      </div>
-      <div className={styles.firstPageImage}>
-        <img
-          className={styles.firstPage0005Icon}
-          loading="lazy"
-          alt=""
-          src="/first-page-0005@2x.png"
-        />
-      </div>
-    </div>
-  </div>
-</div>
 
       <div className={styles.choose}>
         <div className={styles.frameParent}>
@@ -68,6 +66,7 @@ const Marvnomics: FunctionComponent<MarvnomicsType> = ({ className = "" }) => {
           src="/marv-mems0001-1@2x.png"
         />
       </div>
+
       <div className={styles.tokenomics}>
         <div className={styles.tokenomicsDetails}>
           <FrameComponent2
