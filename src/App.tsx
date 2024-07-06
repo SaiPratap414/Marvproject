@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import {
   Routes,
   Route,
@@ -6,6 +6,8 @@ import {
   useLocation,
 } from "react-router-dom";
 import Dev from "./pages/Dev";
+import Mobmarvel from "./pages/Mobmarvel";
+import "./global.css"; // Ensure the CSS file with media queries is imported
 
 function App() {
   const action = useNavigationType();
@@ -27,6 +29,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      default:
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -43,10 +49,25 @@ function App() {
     }
   }, [pathname]);
 
+  // State to track if it's mobile view or not
+  const [isMobileView, setIsMobileView] = useState<boolean>(
+    window.innerWidth <= 768
+  );
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobileView(window.innerWidth <= 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <Routes>
-      <Route path="/" element={<Dev />} />
+      <Route path="/" element={isMobileView ? <Mobmarvel /> : <Dev />} />
     </Routes>
   );
 }
+
 export default App;
