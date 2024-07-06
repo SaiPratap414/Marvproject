@@ -773,7 +773,7 @@ const Mobmarvel: FunctionComponent = () => {
         <div className={styles.meownomicsContainer}>
           <div className={styles.meowjomics}>
             <div className={styles.meowjomicsTitle}>
-              <div className={styles.meownomics}>Meownomics</div>
+              <div className={styles.meownomics}>Marvnomics</div>
               <div className={styles.meetPolaThe1}>
                 Marv's journey in the Solana world is a testament to his unique
                  approach to leadership. He continues to engage with his community,
