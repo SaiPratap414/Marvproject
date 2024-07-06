@@ -321,7 +321,9 @@ const Mobmarvel: FunctionComponent = () => {
             <div className={styles.margin}>
               <div className={styles.container6}>
                 <div className={styles.contractAddress0x76e7447baf}>
-                  Contract address: 0x76e7447bafa3f0acafc9692629b1d1bc937ca15d
+                  <p>
+                    Contract Addreess
+                  </p>
                 </div>
               </div>
             </div>
@@ -379,14 +381,14 @@ const Mobmarvel: FunctionComponent = () => {
                       className={styles.icon4}
                       loading="lazy"
                       alt=""
-                      src="/img/icon-4.svg"
+                      src="/img/dex.png"
                     />
                   </div>
                   <div className={styles.link3} onClick={onLinkContainerClick2}>
                     <img className={styles.icon5} alt="" src="/img/icon-5.svg" />
                   </div>
                   <div className={styles.link4} onClick={onLinkContainerClick3}>
-                    <img className={styles.icon6} alt="" src="/img/icon-6.svg" />
+                    <img className={styles.icon6} alt="" src="/img/icon" />
                   </div>
                 </div>
                 <nav className={styles.goPolaGoContainer}>
@@ -463,7 +465,7 @@ const Mobmarvel: FunctionComponent = () => {
                 </nav>
               </div>
               <div className={styles.link13} onClick={onLinkContainerClick4}>
-                <img className={styles.icon7} alt="" src="/img/icon-7.svg" />
+                <img className={styles.icon7} alt="" src="/img/icon" />
               </div>
             </div>
           </div>
