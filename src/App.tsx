@@ -1,12 +1,8 @@
 import { useEffect, useState } from "react";
-import {
-  Routes,
-  Route,
-  useNavigationType,
-  useLocation,
-} from "react-router-dom";
+import { Routes, Route, useNavigationType, useLocation } from "react-router-dom";
 import Dev from "./pages/Dev";
 import Mobmarvel from "./pages/Mobmarvel";
+import LoadingScreen from "./components/LoadingScreen"; // Import the LoadingScreen component
 import "./global.css"; // Ensure the CSS file with media queries is imported
 
 function App() {
@@ -50,9 +46,7 @@ function App() {
   }, [pathname]);
 
   // State to track if it's mobile view or not
-  const [isMobileView, setIsMobileView] = useState<boolean>(
-    window.innerWidth <= 768
-  );
+  const [isMobileView, setIsMobileView] = useState<boolean>(window.innerWidth <= 768);
 
   useEffect(() => {
     const handleResize = () => {
@@ -62,6 +56,22 @@ function App() {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  // State to manage loading screen visibility
+  const [isLoading, setIsLoading] = useState(true);
+
+  // Simulate loading
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 3000); // Adjust the timeout duration as needed
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (isLoading) {
+    return <LoadingScreen />;
+  }
 
   return (
     <Routes>
