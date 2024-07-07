@@ -729,11 +729,7 @@ const Mobmarvel: FunctionComponent = () => {
             src="/img/marv-web-site-bagrount0001@2x.png"
           />
           <div className={styles.pageContainer}>
-            <img
-              className={styles.firstPage0005Icon}
-              alt=""
-              src="/img/first-page-0005@2x.png"
-            />
+            
             <div className={styles.frameParent3}>
               <div className={styles.justChillingParent}>
                 <div className={styles.justChilling}>#JUST CHILLING</div>
@@ -744,25 +740,10 @@ const Mobmarvel: FunctionComponent = () => {
                   src="/img/cloud-thinking-bubble@2x.png"
                 />
                 <div className={styles.thinkingToBuy}>Thinking to buy Marv</div>
-                <img
-                  className={styles.marvWebNewSet0011}
-                  alt=""
-                  src="/img/marv-web-new-set0011@2x.png"
-                />
+                
               </div>
               <div className={styles.heroElements}>
                 <div className={styles.frameParent4}>
-                  <img
-                    className={styles.groupIcon}
-                    alt=""
-                    src="/img/group-78@2x.png"
-                  />
-                  <img
-                    className={styles.marvWebNewSet00091}
-                    loading="lazy"
-                    alt=""
-                    src="/img/marv-web-new-set0009-1@2x.png"
-                  />
                 </div>
               </div>
             </div>

@@ -3178,7 +3178,7 @@
 .justChilling {
   height: 77px;
   width: 333px;
-  top: -97.3px;
+  top: -40px;
   left: -117.05px;
   line-height: 76.8px;
   display: flex;
@@ -3207,16 +3207,17 @@
 }
 .thinkingToBuy {
   height: 17px;
-  top: 66.8px;
-  right: 4.8px;
-  font-size: var(--font-size-sm);
+  top: 280px;
+  left: -20px;
+  font-size: var(--font-size-base);
   line-height: 76.8px;
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: rotate(-12.1deg);
+  transform: rotate(0deg);
   transform-origin: 0 0;
   z-index: 1;
+  font-family: var(--font-pure-joy);
 }
 .marvWebNewSet0011 {
   height: 100%;
