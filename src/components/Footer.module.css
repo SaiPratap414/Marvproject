@@ -505,9 +505,10 @@
   align-self: stretch;
   padding: 0 0 var(--padding-10xs);
   text-align: left;
-  font-size: var(--font-size-sm);
+  font-size: 24px;
   color: var(--polaonbasecom-nero);
   font-family: var(--font-patrick-hand);
+  margin-bottom: 20px;
 }
 .icon3 {
   height: 24px;
@@ -577,7 +578,7 @@
 .container11 {
   align-self: stretch;
   flex-direction: row;
-  gap: var(--gap-5xl);
+  gap: var(--gap-13xl);
 }
 .container10,
 .container11,
@@ -741,6 +742,7 @@
   align-self: stretch;
   position: relative;
   line-height: 18px;
+
 }
 .container22 {
   align-self: stretch;
@@ -911,8 +913,9 @@
   align-items: center;
   justify-content: flex-start;
   padding: 0 var(--padding-base);
-  gap: var(--gap-5xs);
+  gap: 20px;
   max-width: 912px;
+  font-size: 24px;
 }
 .margin7 {
   height: 244px;

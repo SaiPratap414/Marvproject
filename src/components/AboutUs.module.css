@@ -112,6 +112,7 @@
   align-items: center;
   flex-shrink: 0;
   max-width: 100%;
+  margin-top: 60px;
 }
 .despiteHisQuirksMarvHasRWrapper {
   align-self: stretch;
@@ -152,7 +153,7 @@
   padding: var(--padding-51xl) 0 0;
   flex-shrink: 0;
   text-align: left;
-  font-size: var(--font-size-5xl);
+  font-size: var(--font-size-13xl);
   color: var(--color-goldenrod);
   font-family: var(--font-patrick-hand);
   margin-left: 150px;

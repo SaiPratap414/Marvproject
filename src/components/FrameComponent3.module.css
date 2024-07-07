@@ -43,6 +43,7 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+  margin-left: 90px;
 }
 .httpslottiefilescomanimatWrapper {
   height: 32.3px;
@@ -142,6 +143,7 @@
   justify-content: flex-end;
   padding: 0 0 var(--padding-9xs);
   box-sizing: border-box;
+  margin-left: 70px;
 }
 .r,
 .r1 {
@@ -186,6 +188,7 @@
   justify-content: flex-end;
   padding: 0 0 var(--padding-mini);
   box-sizing: border-box;
+  margin-left: 70px;
 }
 .v,
 .v1 {
@@ -231,6 +234,7 @@
   justify-content: flex-end;
   padding: 0 0 var(--padding-4xl);
   box-sizing: border-box;
+  margin-left: 70px;
 }
 .frameGroup,
 .heroDescriptionContent {
@@ -272,7 +276,7 @@
   flex-direction: row;
   padding: var(--padding-12xs-4) 0 var(--padding-3xs-6);
   box-sizing: border-box;
-  font-size: var(--font-size-5xl);
+  font-size: var(--font-size-13xl);
   color: var(--polaonbasecom-nero);
   font-family: var(--font-patrick-hand);
 }
@@ -343,6 +347,7 @@
   flex-direction: row;
   justify-content: center;
   padding: 0 var(--padding-xl);
+  margin-left: 70px;
 }
 .frameParent {
   flex: 1;
@@ -366,7 +371,7 @@
   width: 336px;
   margin: 0 !important;
   position: absolute;
-  right: -155.1px;
+  right: -190px;
   bottom: -92.6px;
   display: flex;
   flex-direction: column;
@@ -395,6 +400,7 @@
   padding: var(--padding-5xl) 0 0;
   box-sizing: border-box;
   min-width: 395px;
+  margin-right: -60px;
 }
 .heroContentParent {
   width: 1244.9px;

@@ -109,7 +109,7 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
                   <div className={styles.smallmargin}>
                     <div className={styles.small}>
                       <div className={styles.joinTheMarv}>
-                        Join the Marv at Club Base.
+                        Join the Marv Army.
                       </div>
                     </div>
                   </div>
