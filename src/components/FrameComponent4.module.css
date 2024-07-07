@@ -20,11 +20,13 @@
   color: inherit;
   display: inline-block;
   min-width: 47px;
+  cursor: pointer;
 }
 .about,
 .gallery,
 .roadmap {
   min-width: 50px;
+  cursor: pointer;
 }
 .gallery,
 .roadmap {
@@ -69,6 +71,7 @@
   justify-content: space-between;
   gap: var(--gap-xl);
   z-index: 1;
+  cursor: pointer;
 }
 .frameWrapper {
   width: 799px;
@@ -240,6 +243,7 @@
   min-width: 50px; /* Adjust as needed */
   margin-right: 20px; /* Add margin-right for gaps */
   white-space: nowrap;
+  cursor: pointer;
 }
 
 /* Adjust specific widths if necessary */

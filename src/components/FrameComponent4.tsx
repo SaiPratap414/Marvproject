@@ -9,11 +9,20 @@ const FrameComponent4: FunctionComponent<FrameComponent4Type> = ({
   className = "",
 }) => {
   const scrollToSection = useCallback((sectionId: string) => {
+    console.log("Scrolling to section:", sectionId);
     const anchor = document.querySelector(`[data-scroll-to='${sectionId}']`);
     if (anchor) {
+      console.log("Found anchor:", anchor);
       anchor.scrollIntoView({ behavior: "smooth", block: "start" });
+    } else {
+      console.warn(`Cannot find anchor for sectionId '${sectionId}'`);
     }
   }, []);
+
+  const handleNavClick = (sectionId: string) => {
+    console.log("Nav clicked:", sectionId);
+    scrollToSection(sectionId);
+  };
 
   return (
     <header className={[styles.navWrapper, className].join(" ")}>
@@ -22,26 +31,28 @@ const FrameComponent4: FunctionComponent<FrameComponent4Type> = ({
           <div className={styles.navBackground} />
           <div className={styles.frameWrapper}>
             <div className={styles.homeparent}>
-              <a className={styles.home}>Home</a>
-              <a className={styles.about} onClick={() => scrollToSection("About")}>
+              <a className={styles.home} onClick={() => handleNavClick("header")}>
+                Home
+              </a>
+              <a className={styles.about} onClick={() => handleNavClick("About")}>
                 About
               </a>
-              <a className={styles.gallery} onClick={() => scrollToSection("Gallery")}>
+              <a className={styles.gallery} onClick={() => handleNavClick("Gallery")}>
                 Gallery
               </a>
-              <a className={styles.roadmap} onClick={() => scrollToSection("Roadmap")}>
+              <a className={styles.roadmap} onClick={() => handleNavClick("Roadmap")}>
                 Roadmap
               </a>
-              <a className={styles.marvnomics} onClick={() => scrollToSection("Marvnomics")}>
+              <a className={styles.marvnomics} onClick={() => handleNavClick("Marvnomics")}>
                 Marvnomics
               </a>
-              <a className={styles.howToBuy} onClick={() => scrollToSection("HowToBuy")}>
+              <a className={styles.howToBuy} onClick={() => handleNavClick("HowToBuy")}>
                 How to Buy
               </a>
-              <a className={styles.memes} onClick={() => scrollToSection("Memes")}>
+              <a className={styles.memes} onClick={() => handleNavClick("Memes")}>
                 Memes
               </a>
-              <a className={styles.disclaimer} onClick={() => scrollToSection("Disclaimer")}>
+              <a className={styles.disclaimer} onClick={() => handleNavClick("Disclaimer")}>
                 Disclaimer
               </a>
             </div>

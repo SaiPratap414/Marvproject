@@ -15,7 +15,7 @@
 body {
   margin: 0;
   line-height: normal;
-  cursor: url('/public/cursor.png'), auto;
+  cursor: url('/public/cursor.png'), auto; 
 }
 :root {
   /* fonts */
