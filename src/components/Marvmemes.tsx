@@ -18,7 +18,7 @@ const Marvmemes: FunctionComponent<MarvmemesType> = ({ className = "" }) => {
                   <img
                     className={styles.marvmemeContentIcon}
                     alt=""
-                    src="/marvmeme-content@2x.png"
+                    src="/marvwebnew.png"
                   />
                   <img className={styles.pinIcon} alt="" src="/pin.svg" />
                 </div>
