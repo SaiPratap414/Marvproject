@@ -119,7 +119,7 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
                           className={styles.icon3}
                           loading="lazy"
                           alt=""
-                          src="/icon-3.svg"
+                          src="/tww.png"
                         />
                       </div>
                     </div>
@@ -153,38 +153,6 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
                 </div>
               </div>
             </div>
-            <div className={styles.margin3}>
-              <div className={styles.container15}>
-                <div className={styles.container16}>
-                  <div className={styles.metrics}>Metrics</div>
-                </div>
-                <div className={styles.container17}>
-                  <div className={styles.margin4}>
-                    <div className={styles.container18}>
-                      <div className={styles.link4}>
-                        <div className={styles.coingecko}>CoinGecko</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className={styles.margin5}>
-                    <div className={styles.container19}>
-                      <div className={styles.link5}>
-                        <div className={styles.coinmarketcap}>
-                          Coinmarketcap
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className={styles.margin6}>
-                    <div className={styles.container20}>
-                      <div className={styles.link6}>
-                        <div className={styles.dextools}>Dextools</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div className={styles.margin7}>
               <div className={styles.container21}>
                 <div className={styles.container22}>
@@ -194,7 +162,7 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
                   <div className={styles.margin8}>
                     <div className={styles.container24}>
                       <div className={styles.link7}>
-                        <div className={styles.joinMarvarmy}>Join Marvarmy</div>
+                        <div className={styles.joinMarvarmy}>TikTok</div>
                       </div>
                     </div>
                   </div>
@@ -222,7 +190,7 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
                   <div className={styles.margin12}>
                     <div className={styles.container28}>
                       <div className={styles.link11}>
-                        <div className={styles.reddit}>Reddit</div>
+                        <div className={styles.reddit}>Instagram</div>
                       </div>
                     </div>
                   </div>

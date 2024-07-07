@@ -444,7 +444,7 @@
   padding: var(--padding-31xl) var(--padding-xl);
   box-sizing: border-box;
   max-width: 2160px;
-  min-height: 644px;
+  min-height: 100vh;
   text-align: center;
   font-size: var(--font-size-29xl);
   color: var(--polaonbasecom-nero);

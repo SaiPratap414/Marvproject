@@ -515,6 +515,7 @@
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
+  
 }
 .container12,
 .link1 {
@@ -532,6 +533,7 @@
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
+  background-color: black;
 }
 .container13,
 .link2 {
