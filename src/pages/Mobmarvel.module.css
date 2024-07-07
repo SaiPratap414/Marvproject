@@ -1342,6 +1342,7 @@
   flex-direction: row;
   justify-content: center;
   padding: 0 0 0 var(--padding-12xs);
+  margin-top: 60px;
 }
 .container {
   width: 95px;
@@ -1445,6 +1446,7 @@
   justify-content: flex-start;
   padding: 0;
   z-index: 1;
+  margin-top: 20px;
 }
 .buyMarv {
   position: relative;

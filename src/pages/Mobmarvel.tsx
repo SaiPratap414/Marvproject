@@ -283,20 +283,6 @@ const Mobmarvel: FunctionComponent = () => {
         <div className={styles.disclaimerWrapper}>
           <div className={styles.disclaimer}>DISCLAIMER</div>
         </div>
-        <div className={styles.overlayshadow}>
-          <div className={styles.button1}>
-            <input
-              className={styles.container}
-              placeholder="Legal Disclaimer"
-              type="text"
-            />
-            <div className={styles.container1}>
-              <div className={styles.container2}>
-                <img className={styles.icon} alt="" src="/img/icon.svg" />
-              </div>
-            </div>
-          </div>
-        </div>
         <div className={styles.overlayshadow1}>
           <div className={styles.button2}>
             <input
