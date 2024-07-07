@@ -85,6 +85,7 @@
   width: 27px;
   height: 22.5px;
   position: relative;
+  cursor: pointer;
 }
 .frameContainer {
   display: flex;
@@ -92,6 +93,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-10xs-3) 0 0;
+  cursor: pointer;
 }
 .frameItem {
   width: 22.5px;
@@ -121,12 +123,14 @@
   flex-direction: row;
   justify-content: space-between;
   gap: var(--gap-xl);
+  cursor: pointer;
 }
 .navMenuInner {
   flex: 1;
   flex-direction: column;
   justify-content: flex-start;
   padding: var(--padding-2xs) 0 0;
+  cursor: pointer;
 }
 .buttonBackground {
   height: 100%;
@@ -159,6 +163,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
+
 }
 .buttonBackgroundParent {
   padding: var(--padding-6xs) var(--padding-10xl) var(--padding-7xs);
@@ -170,6 +175,7 @@
   z-index: 1;
   font-size: var(--font-size-7xl);
   color: var(--color-seagreen);
+  cursor: pointer;
 }
 .nav,
 .navBackgroundParent,
@@ -207,6 +213,7 @@
   font-size: var(--font-size-5xl);
   color: var(--color-darkslateblue);
   font-family: var(--font-patrick-hand);
+  cursor: pointer;
 }
 @media screen and (max-width: 1350px) {
   .navBackgroundParent,
