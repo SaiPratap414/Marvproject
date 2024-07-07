@@ -38,20 +38,6 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
       <div className={styles.footerActions}>
         <div className={styles.actionsContainer}>
           <form className={styles.footerButtonsWrapper}>
-            <div className={styles.overlayshadow}>
-              <div className={styles.button}>
-                <input
-                  className={styles.container1}
-                  placeholder="Legal Disclaimer"
-                  type="text"
-                />
-                <div className={styles.container2}>
-                  <div className={styles.container3}>
-                    <img className={styles.icon} alt="" src="/icon.svg" />
-                  </div>
-                </div>
-              </div>
-            </div>
             <div className={styles.overlayshadow1}>
               <div className={styles.button1}>
                 <input
