@@ -952,6 +952,7 @@
   font-size: var(--font-size-29xl);
   color: var(--polaonbasecom-nero);
   font-family: var(--font-acme);
+  min-height: 100vh;
 }
 @media screen and (max-width: 1350px) {
   .imageGrid {

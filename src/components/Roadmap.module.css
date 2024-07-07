@@ -249,7 +249,7 @@
   font-size: inherit;
   line-height: 76.8px;
   font-weight: 400;
-  font-family: inherit;
+  font-family: var(--font-patrick-hand);
   justify-content: center;
   min-width: 143px;
 }
@@ -260,7 +260,7 @@
   position: relative;
   font-size: var(--font-size-29xl);
   line-height: 76.8px;
-  font-family: var(--font-charm);
+  font-family: var(--font-patrick-hand);
   justify-content: center;
   min-width: 146px;
 }

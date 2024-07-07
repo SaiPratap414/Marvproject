@@ -18,6 +18,10 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
     window.open("https://t.me/");
   }, []);
 
+  const onHomeButtonClick = useCallback(() => {
+    document.getElementById('header')?.scrollIntoView({ behavior: 'smooth' });
+  }, []);
+
   return (
     <section className={[styles.footer, className].join(" ")} data-scroll-to="Disclaimer">
       <div className={styles.bg}>
@@ -198,6 +202,14 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
               </div>
             </div>
           </div>
+        </div>
+        <div className={styles.homeButtonContainer}>
+          <img
+            className={styles.homeButton}
+            src="/dex.png"
+            alt="Home"
+            onClick={onHomeButtonClick}
+          />
         </div>
       </div>
     </section>

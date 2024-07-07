@@ -56,6 +56,7 @@
   font-size: var(--font-size-201xl);
   color: var(--polaonbasecom-black);
   font-family: var(--font-pure-joy);
+  min-height: 100vh;
 }
 @media screen and (max-width: 800px) {
   .header {

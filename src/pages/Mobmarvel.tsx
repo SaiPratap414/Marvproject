@@ -348,7 +348,7 @@ const Mobmarvel: FunctionComponent = () => {
                 </div>
               </div>
               <div className={styles.joinTheMarv}>
-                Join the Marv at Club Base.
+                Join the Marv Army
               </div>
             </div>
             <div className={styles.socialIcons}>
@@ -359,7 +359,7 @@ const Mobmarvel: FunctionComponent = () => {
                       className={styles.icon3}
                       loading="lazy"
                       alt=""
-                      src="/img/icon-3.svg"
+                      src="/tww.png"
                     />
                   </div>
                   <div className={styles.link2} onClick={onLinkContainerClick1}>
@@ -387,7 +387,7 @@ const Mobmarvel: FunctionComponent = () => {
                         <div className={styles.container11}>
                           <div className={styles.link5}>
                             <div className={styles.joinPolarmy}>
-                              Join POLArmy
+                              TikTok
                             </div>
                           </div>
                         </div>
@@ -416,34 +416,8 @@ const Mobmarvel: FunctionComponent = () => {
                       <div className={styles.margin5}>
                         <div className={styles.container15}>
                           <div className={styles.link9}>
-                            <div className={styles.reddit}>Reddit</div>
+                            <div className={styles.reddit}>Instagram</div>
                           </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <a className={styles.metrics}>Metrics</a>
-                  <div className={styles.container16}>
-                    <div className={styles.margin6}>
-                      <div className={styles.container17}>
-                        <div className={styles.link10}>
-                          <div className={styles.coingecko}>CoinGecko</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className={styles.margin7}>
-                      <div className={styles.container18}>
-                        <div className={styles.link11}>
-                          <div className={styles.coinmarketcap}>
-                            Coinmarketcap
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className={styles.margin8}>
-                      <div className={styles.container19}>
-                        <div className={styles.link12}>
-                          <div className={styles.dextools}>Dextools</div>
                         </div>
                       </div>
                     </div>

@@ -203,6 +203,8 @@
   font-size: var(--font-size-57xl);
   color: var(--color-lemonchiffon);
   font-family: var(--font-pure-joy);
+  min-height: 100vh;
+  max-height: 744px;
 }
 @media screen and (max-width: 1350px) {
   .aboutUs {

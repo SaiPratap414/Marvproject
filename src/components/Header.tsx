@@ -9,7 +9,7 @@ export type HeaderType = {
 
 const Header: FunctionComponent<HeaderType> = ({ className = "" }) => {
   return (
-    <section className={[styles.header, className].join(" ")}>
+    <section className={[styles.header, className].join(" ")} id="header">
       <div className={styles.box}>
         <div className={styles.boxChild} />
         <div className={styles.boxItem} />
