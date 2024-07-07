@@ -14,12 +14,11 @@
 
 .backgroundGif {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  max-width: 90%;
-  max-height: 90%;
-  transform: translate(-50%, -50%);
-  object-fit: contain; /* Ensures the GIF maintains its aspect ratio within the specified bounds */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the GIF covers the entire screen */
   z-index: -1; /* Place the GIF behind the loading bar */
 }
 
