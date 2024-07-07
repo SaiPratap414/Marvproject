@@ -729,7 +729,6 @@ const Mobmarvel: FunctionComponent = () => {
             src="/img/marv-web-site-bagrount0001@2x.png"
           />
           <div className={styles.pageContainer}>
-            
             <div className={styles.frameParent3}>
               <div className={styles.justChillingParent}>
                 <div className={styles.justChilling}>#JUST CHILLING</div>
@@ -739,8 +738,7 @@ const Mobmarvel: FunctionComponent = () => {
                   alt=""
                   src="/img/cloud-thinking-bubble@2x.png"
                 />
-                <div className={styles.thinkingToBuy}>Thinking to buy Marv</div>
-                
+                <div className={styles.thinkingToBuy}>Thinking to buy Marv</div>  
               </div>
               <div className={styles.heroElements}>
                 <div className={styles.frameParent4}>
