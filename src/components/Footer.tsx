@@ -206,7 +206,7 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
         <div className={styles.homeButtonContainer}>
           <img
             className={styles.homeButton}
-            src="/dex.png"
+            src="/arrow.png"
             alt="Home"
             onClick={onHomeButtonClick}
           />
