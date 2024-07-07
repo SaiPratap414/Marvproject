@@ -520,16 +520,45 @@
 }
 .homeButtonContainer {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
+  bottom: 40px;
+  right: 40px;
   z-index: 1;
+  text-align: center;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 .homeButton {
-  width: 50px;
-  height: 50px;
+  width: 90px;
+  height: 90px;
   cursor: pointer;
+  animation: float 1s ease-in-out infinite; /* Continuous up and down movement */
 }
+
+
+.homeButton:hover {
+  transform: translateY(-10px); /* Move up by 10px on hover */
+}
+
+.homeButtonText {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out; /* Smooth transition for the text */
+  font-size: 20px;
+  color: #4e066d; /* Adjust text color as needed */
+  margin-top: 10px; /* Space between the button and text */
+}
+
+.homeButtonContainer:hover .homeButtonText {
+  opacity: 1; /* Make the text visible on hover */
+}
+
 .container12,
 .link1 {
   display: flex;

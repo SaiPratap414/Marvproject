@@ -204,13 +204,15 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
           </div>
         </div>
         <div className={styles.homeButtonContainer}>
-          <img
-            className={styles.homeButton}
-            src="/arrow.png"
-            alt="Home"
-            onClick={onHomeButtonClick}
-          />
-        </div>
+  <img
+    className={styles.homeButton}
+    src="/arrow.png"
+    alt="Home"
+    onClick={onHomeButtonClick}
+  />
+  <div className={styles.homeButtonText}>Punch me to go home</div>
+</div>
+
       </div>
     </section>
   );
