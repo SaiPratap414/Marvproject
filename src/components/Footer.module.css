@@ -536,8 +536,8 @@
 }
 
 .homeButton {
-  width: 90px;
-  height: 90px;
+  width: 140px;
+  height: 140px;
   cursor: pointer;
   animation: float 1s ease-in-out infinite; /* Continuous up and down movement */
 }
@@ -994,6 +994,7 @@
   font-size: var(--font-size-21xl);
   color: var(--polaonbasecom-link-water);
   font-family: var(--font-pure-joy);
+  height: 100vh;
 }
 @media screen and (max-width: 1125px) {
   .actionsContainer {

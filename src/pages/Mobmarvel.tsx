@@ -92,7 +92,7 @@ const Mobmarvel: FunctionComponent = () => {
               </div>
               <div className={styles.hiImPola}>
               Marv is a slightly racist, shy frog who loves to dress
-                        up.  In the world of Solana, Marv has become a unique
+                        up. In the world of Solana, Marv has become a unique
                         and influential figure.
               </div>
             </div>
