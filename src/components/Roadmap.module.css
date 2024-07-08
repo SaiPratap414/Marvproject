@@ -214,7 +214,7 @@
 
 @keyframes marquee {
   0% { transform: translateX(0%); }
-  100% { transform: translateX(-100%); }
+  100% { transform: translateX(-50%); }
 }
 
 .movingFrame {
@@ -234,6 +234,7 @@
   font-size: var(--font-size-49xl);
   color: var(--polaonbasecom-black);
   font-family: var(--font-baloo-da);
+  animation: marquee 10s linear infinite; /* Adjust the duration as needed */
 }
 
 .marv, .imMarv, .marvParent, .marv1, .imMarv1, .marvGroup, .marv2, .imMarv2, .marvContainer, .marv3, .imMarv3, .frameDiv, .marv4, .imMarv4, .marvParent1, .marv5, .imMarv5, .marvParent2, .marv6, .imMarv6, .marvParent3, .marv7, .imMarv7, .marvParent4, .marv8, .imMarv8, .marvParent5, .marv9, .imMarv9, .marvParent6, .marv10, .imMarv10, .marvParent7, .marv11, .imMarv11, .marvParent8, .imMarv12, .marvParent9, .marv13, .imMarv13, .marvParent10 {
@@ -272,7 +273,7 @@
   justify-content: flex-start;
   gap: var(--gap-base);
   max-width: 100%;
-  animation: marquee 2s linear infinite; /* Apply marquee animation */
+   /* Apply marquee animation */
 }
 
 
