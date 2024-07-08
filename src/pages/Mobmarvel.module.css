@@ -1928,6 +1928,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
+  margin-bottom: 80px;
 }
 .container14,
 .margin4 {
@@ -1953,6 +1954,7 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
+  margin-top: -240px;
 }
 .container15,
 .margin5 {
