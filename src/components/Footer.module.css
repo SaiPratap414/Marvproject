@@ -993,7 +993,7 @@
   box-sizing: border-box;
   position: relative;
   gap: var(--gap-67xl);
-  max-width: 2160px;
+  
   text-align: center;
   font-size: var(--font-size-21xl);
   color: var(--polaonbasecom-link-water);

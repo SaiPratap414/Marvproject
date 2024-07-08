@@ -482,7 +482,7 @@
   box-sizing: border-box;
   flex-direction: row;
   padding: var(--padding-74xl) var(--padding-77xl);
-  max-width: 2160px;
+
   text-align: center;
   font-size: var(--font-size-29xl);
   color: var(--polaonbasecom-nero);

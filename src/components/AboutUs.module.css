@@ -92,6 +92,7 @@
   width: 457.2px;
   max-width: 100%;
   margin-left: 40px;
+  margin: 0 auto;
 }
 .marvAFrog {
   align-self: stretch;
@@ -199,7 +200,6 @@
   justify-content: flex-start;
   padding: var(--padding-149xl) var(--padding-74xl) var(--padding-110xl);
   gap: var(--gap-10xs-8);
-  max-width: 2160px;
   text-align: center;
   font-size: var(--font-size-57xl);
   color: var(--color-lemonchiffon);

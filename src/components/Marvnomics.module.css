@@ -199,7 +199,7 @@
   padding: var(--padding-110xl) var(--padding-91xl) var(--padding-96xl)
     var(--padding-118xl);
   gap: var(--gap-22xl);
-  max-width: 2160px;
+  
   text-align: center;
   font-size: var(--font-size-29xl);
   color: var(--polaonbasecom-nero);
