@@ -50,7 +50,6 @@
   justify-content: flex-start;
   padding: var(--padding-51xl) var(--padding-xl) var(--padding-8xs);
   gap: var(--gap-75xl);
-  max-width: 2160px;
   max-height: 722px;
   text-align: center;
   font-size: var(--font-size-201xl);
