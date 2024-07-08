@@ -52,6 +52,7 @@
   justify-content: center;
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
+  margin-top: -30px;
 }
 .container {
   width: 492.1px;
@@ -180,7 +181,7 @@
   box-sizing: border-box;
   max-width: 117%;
   flex-shrink: 0;
-  margin-bottom: -300px;
+  margin-bottom: -500px;
 }
 .buyMarv {
   position: relative;
@@ -306,6 +307,8 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: 0 var(--padding-50xl);
+  margin-top: -100px;
+  
 }
 .m,
 .m1 {
@@ -980,6 +983,8 @@
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--polaonbasecom-nero);
+  margin-bottom: -390px;
+  margin-top: 40px;
 }
 .footer {
   width: 100%;

@@ -209,10 +209,6 @@ const Mobmarvel: FunctionComponent = () => {
           </div>
           <div className={styles.movingFrame}>
             <div className={styles.frameContainer}>
-              <div className={styles.meowParent}>
-                <div className={styles.meow}>$ MEOW</div>
-                <div className={styles.imPola}>#I’M POLA</div>
-              </div>
               <div className={styles.marvParent}>
                 <h3 className={styles.marv}>$MARV</h3>
                 <div className={styles.imMarv}>#I’M MARV</div>
