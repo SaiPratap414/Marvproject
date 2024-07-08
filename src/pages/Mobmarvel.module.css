@@ -1311,15 +1311,16 @@
   z-index: 0;
 }
 .marvWebLastPageWithBg0002 {
-  width: 390px;
-  height: 286.3px;
   position: absolute;
-  margin: 0 !important;
-  bottom: 0;
+  top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   z-index: 1;
+  margin: 0 !important;
 }
+
 .disclaimer {
   width: 154px;
   position: relative;
