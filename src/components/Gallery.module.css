@@ -919,7 +919,18 @@
   gap: var(--gap-sm);
   max-width: 100%;
 }
-.notoupArrowIcon,
+.notoupArrowIcon
+{
+  height: 48px;
+  width: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  min-height: 48px;
+  background-color: var(--color-tan);
+  
+}
 .notoupArrowIcon1 {
   height: 48px;
   width: 48px;
@@ -928,6 +939,7 @@
   flex-shrink: 0;
   object-fit: contain;
   min-height: 48px;
+ 
 }
 .arrows,
 .gallery {

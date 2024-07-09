@@ -266,7 +266,7 @@ const Gallery: FunctionComponent<GalleryType> = ({ className = "" }) => {
         <img
           className={styles.notoupArrowIcon}
           alt="Scroll Left"
-          src="/notouparrow@2x.png"
+          src="/noto_up-arrow.png"
           onClick={scrollLeft}
         />
         <img
