@@ -393,6 +393,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
+  margin: 0 auto;
 }
 .frameWrapper {
   flex: 1;
@@ -400,10 +401,12 @@
   padding: var(--padding-5xl) 0 0;
   box-sizing: border-box;
   min-width: 395px;
-  margin-right: -60px;
+  margin-right: -10px;
 }
 .heroContentParent {
   width: 1244.9px;
+  margin: 0 auto; /* Center the element horizontally */
+  display: flex; /* Ensure flex container */
   flex-direction: row;
   gap: var(--gap-137xl-9);
   text-align: center;
@@ -411,6 +414,7 @@
   color: var(--polaonbasecom-black);
   font-family: var(--font-pure-joy);
 }
+
 /* FrameComponent3.module.css */
 
 /* Adjustments for screens above 1440px wide */

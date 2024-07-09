@@ -1,44 +1,4 @@
-.boxChild,
-.boxInner,
-.boxItem {
-  position: absolute;
-  height: 56.6%;
-  width: 89.73%;
-  top: 43.4%;
-  right: 4.29%;
-  bottom: 0;
-  left: 5.98%;
-  background-color: var(--color-lemonchiffon);
-  overflow: hidden;
-}
-.boxInner,
-.boxItem {
-  height: 42.93%;
-  width: 17.59%;
-  top: -1.88%;
-  right: 77%;
-  bottom: 58.94%;
-  left: 5.4%;
-  background-color: var(--color-darkslateblue);
-  transform: rotate(34.2deg);
-  transform-origin: 0 0;
-}
-.boxInner {
-  height: 37.83%;
-  width: 85.59%;
-  top: 43.93%;
-  right: 2.94%;
-  bottom: 18.24%;
-  left: 11.47%;
-  transform: rotate(-3.8deg);
-}
-.box {
-  width: 1604.8px;
-  height: 341px;
-  position: relative;
-  display: none;
-  max-width: 100%;
-}
+
 .header {
   width: 100%;
   background-color: var(--color-darkslateblue);
@@ -56,8 +16,9 @@
   color: var(--polaonbasecom-black);
   font-family: var(--font-pure-joy);
   min-height: 100vh;
+  max-width: 100%;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
   .header {
     gap: var(--gap-28xl);
     padding-top: var(--padding-26xl);
