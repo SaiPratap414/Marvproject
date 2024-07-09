@@ -28,7 +28,6 @@ const Mobmarvel: FunctionComponent = () => {
         <div className={styles.matter}>
           <div className={styles.vectorParent}>
             <img className={styles.vectorIcon} alt="" src="/img/vector.svg" />
-            <img className={styles.vectorIcon1} alt="" src="/img/vector.svg" />
             <div className={styles.rectangleParent}>
               <div className={styles.frameChild} />
               <div className={styles.aNewKing}>A New King Has Risen</div>
@@ -204,7 +203,7 @@ const Mobmarvel: FunctionComponent = () => {
               className={styles.meteoconsstarFillIcon6}
               loading="lazy"
               alt=""
-              src="/img/meteoconsstarfill@2x.png"
+              src="/img/meteoconsstarfill@2x"
             />
           </div>
           <div className={styles.movingFrame}>
@@ -989,22 +988,7 @@ const Mobmarvel: FunctionComponent = () => {
                 src="/img/group-66@2x.png"
               />
             </div>
-            <div className={styles.memeScroller}>
-              <div className={styles.notoupArrowContainer}>
-                <img
-                  className={styles.notoupArrowIcon4}
-                  loading="lazy"
-                  alt=""
-                  src="/img/notouparrow-4@2x.png"
-                />
-                <img
-                  className={styles.notoupArrowIcon5}
-                  loading="lazy"
-                  alt=""
-                  src="/img/notouparrow-5@2x.png"
-                />
-              </div>
-            </div>
+            
           </div>
         </div>
       </section>
