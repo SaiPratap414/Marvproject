@@ -16,6 +16,9 @@ body {
   margin: 0;
   line-height: normal;
   cursor: url('/public/cursor.png'), auto; 
+  overflow-x: hidden;
+  padding: 0;
+  box-sizing: border-box;
 }
 :root {
   /* fonts */
