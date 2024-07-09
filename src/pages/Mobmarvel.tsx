@@ -645,33 +645,8 @@ const Mobmarvel: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className={styles.notoupArrowParent}>
-              <img
-                className={styles.notoupArrowIcon}
-                alt=""
-                src="/img/notouparrow@2x.png"
-              />
-              <img
-                className={styles.notoupArrowIcon1}
-                alt=""
-                src="/img/notouparrow-1@2x.png"
-              />
-            </div>
           </div>
-          <div className={styles.notoupArrowGroup}>
-            <img
-              className={styles.notoupArrowIcon2}
-              loading="lazy"
-              alt=""
-              src="/img/notouparrow@2x.png"
-            />
-            <img
-              className={styles.notoupArrowIcon3}
-              loading="lazy"
-              alt=""
-              src="/img/notouparrow-1@2x.png"
-            />
-          </div>
+          
         </div>
         <div className={styles.extraFrame}>
           <img
