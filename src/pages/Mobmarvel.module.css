@@ -706,7 +706,7 @@
   z-index: 5;
 }
 
-.frameParent {
+.frameContainer {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -715,12 +715,25 @@
   justify-content: flex-start;
   gap: var(--gap-27xl);
   position: relative; /* For positioning the moving frame */
+  
 }
+
 
 @keyframes marquee {
   0% { transform: translateX(0%); }
   100% { transform: translateX(-100%); }
 }
+
+.marv, .imMarv, .marvParent {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0 var(--gap-27xl); /* Adjust gap */
+  font-family: var(--font-patrick-hand);
+  font-size: var(--font-size-49xl);
+  color: var(--polaonbasecom-black);
+}
+
 
 .movingFrame {
   display: flex;
@@ -739,6 +752,8 @@
   font-size: var(--font-size-49xl);
   color: var(--polaonbasecom-black);
   font-family: var(--font-baloo-da);
+  
+
 }
 
 .marv, .imMarv, .marvParent, .marv1, .imMarv1, .marvGroup, .marv2, .imMarv2, .marvContainer, .marv3, .imMarv3, .frameDiv, .marv4, .imMarv4, .marvParent1, .marv5, .imMarv5, .marvParent2, .marv6, .imMarv6, .marvParent3, .marv7, .imMarv7, .marvParent4, .marv8, .imMarv8, .marvParent5, .marv9, .imMarv9, .marvParent6, .marv10, .imMarv10, .marvParent7, .marv11, .imMarv11, .marvParent8, .imMarv12, .marvParent9, .marv13, .imMarv13, .marvParent10 {
@@ -777,8 +792,9 @@
   justify-content: flex-start;
   gap: var(--gap-base);
   max-width: 100%;
-  animation: marquee 2s linear infinite; /* Apply marquee animation */
+  animation: marquee 2s linear infinite;/* Apply marquee animation */
 }
+
 .roadmapContent1 {
   align-self: stretch;
   flex-direction: column;
