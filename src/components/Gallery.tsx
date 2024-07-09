@@ -1,4 +1,4 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, useRef } from "react";
 import styles from "./Gallery.module.css";
 
 export type GalleryType = {
@@ -6,12 +6,29 @@ export type GalleryType = {
 };
 
 const Gallery: FunctionComponent<GalleryType> = ({ className = "" }) => {
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  const scrollLeft = () => {
+    if (containerRef.current) {
+      containerRef.current.scrollBy({ left: -300, behavior: "smooth" });
+    }
+  };
+
+  const scrollRight = () => {
+    if (containerRef.current) {
+      containerRef.current.scrollBy({ left: 300, behavior: "smooth" });
+    }
+  };
+
   return (
-    <section className={[styles.gallery, className].join(" ")} data-scroll-to="Gallery">
+    <section
+      className={[styles.gallery, className].join(" ")}
+      data-scroll-to="Gallery"
+    >
       <div className={styles.gallery1}>
         <div className={styles.marvgallery}>MARVGALLERY</div>
         <div className={styles.imageGrid}>
-          <div className={styles.gridContent}>
+          <div ref={containerRef} className={styles.gridContent}>
             <div className={styles.images}>
               <div className={styles.frameParent}>
                 <div className={styles.imagePlaceholdersWrapper}>
@@ -248,13 +265,15 @@ const Gallery: FunctionComponent<GalleryType> = ({ className = "" }) => {
       <div className={styles.arrows}>
         <img
           className={styles.notoupArrowIcon}
-          alt=""
+          alt="Scroll Left"
           src="/notouparrow@2x.png"
+          onClick={scrollLeft}
         />
         <img
           className={styles.notoupArrowIcon1}
-          alt=""
+          alt="Scroll Right"
           src="/notouparrow-1@2x.png"
+          onClick={scrollRight}
         />
       </div>
     </section>
