@@ -1,8 +1,7 @@
 .marvgallery {
   align-self: stretch;
   position: relative;
-  line-height: 70px;
- margin: 0 auto;
+  line-height: 77px;
 }
 .imagePlaceholders {
   position: absolute;
@@ -967,7 +966,6 @@
   color: var(--polaonbasecom-nero);
   font-family: var(--font-acme);
   min-height: 100vh;
-  margin: 0 auto;
 }
 @media screen and (max-width: 1350px) {
   .imageGrid {

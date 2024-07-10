@@ -19,6 +19,15 @@
   flex-shrink: 0;
 }
 .aNewKing {
+  line-height: 100px;
+  font-weight: 400;
+  font-family: inherit;
+  font-size: 1em;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+/* .aNewKing {
   margin: 0;
   height: 231px;
   flex: 1;
@@ -31,8 +40,15 @@
   align-items: center;
   justify-content: center;
   max-width: 100%;
-}
+} */
 .crowmAnimationIcon {
+  height:auto;
+  width: 50%;
+  object-fit: contain;
+  transform: rotate(-15deg); /* Adjust the degree of rotation as needed */
+}
+
+/* .crowmAnimationIcon {
   height: 161.6px;
   width: 161.6px;
   position: absolute;
@@ -41,8 +57,8 @@
   left: -5px;
   object-fit: contain;
   z-index: 1;
-  transform: rotate(-15deg); /* Adjust the degree of rotation as needed */
-}
+  transform: rotate(-15deg); 
+} */
 
 .aNewKingHasRisenParent {
   position: absolute;
@@ -59,6 +75,12 @@
   max-width: 100%;
 }
 .marv0005Icon {
+  height:auto;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* .marv0005Icon {
   align-self: stretch;
   flex: 1;
   position: relative;
@@ -67,7 +89,8 @@
   max-height: 100%;
   object-fit: contain;
 
-}
+} */
+
 .marvImage {
   position: absolute;
   top: -60px;
@@ -86,6 +109,7 @@
 .marvAFrog {
   position: relative;
   flex-shrink: 0;
+  font-size: 1rem;
 }
 .frameParent {
   height: 311.5px;
@@ -126,15 +150,6 @@
   max-width: 100%;
   color: var(--polaonbasecom-nero);
 }
-.groupIcon1 {
-  width: 148.4px;
-  height: 142px;
-  position: absolute;
-  margin: 0 !important;
-  right: -9.3px;
-  bottom: -62px;
-  z-index: 1;
-}
 .aboutUsInner,
 .marvAFrogWithADistinctPParent {
   display: flex;
@@ -158,7 +173,6 @@
   color: var(--color-goldenrod);
   font-family: var(--font-patrick-hand);
   margin-left: 150px;
-  margin: 0 auto;
 }
 .frameChild,
 .frameItem {
@@ -190,6 +204,25 @@
   max-width: 100%;
 }
 .aboutUs {
+  /* width: 100%; */
+  background-color: var(--color-seagreen);
+  border-bottom: 4px solid var(--polaonbasecom-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5vw;
+  gap: 5vw;
+  text-align: center;
+  font-size: var(--font-size-57xl);
+  color: var(--color-lemonchiffon);
+  font-family: var(--font-pure-joy);
+  /* min-height: 100vh; */
+  /* max-height: 744px; */
+}
+/* .aboutUs {
   width: 100%;
   background-color: var(--color-seagreen);
   border-bottom: 4px solid var(--polaonbasecom-black);
@@ -207,7 +240,7 @@
   font-family: var(--font-pure-joy);
   min-height: 100vh;
   max-height: 744px;
-}
+} */
 @media screen and (max-width: 1350px) {
   .aboutUs {
     flex-wrap: wrap;
