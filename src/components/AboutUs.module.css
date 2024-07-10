@@ -158,6 +158,7 @@
   color: var(--color-goldenrod);
   font-family: var(--font-patrick-hand);
   margin-left: 150px;
+  margin: 0 auto;
 }
 .frameChild,
 .frameItem {
