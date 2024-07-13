@@ -51,25 +51,25 @@ const FrameComponent3: FunctionComponent<FrameComponent3Type> = ({
                   <div className={styles.frameGroup}>
                     <div className={styles.frameDiv}>
                       <div className={styles.mParent}>
-                        <h1 className={styles.m}></h1>
+                        <h1 className={styles.m}>M</h1>
                         <h1 className={styles.m1}>M</h1>
                       </div>
                     </div>
                     <div className={styles.frameWrapper1}>
                       <div className={styles.aParent}>
-                        <h1 className={styles.a}></h1>
+                        <h1 className={styles.a}>A</h1>
                         <h1 className={styles.a1}>A</h1>
                       </div>
                     </div>
                     <div className={styles.frameWrapper2}>
                       <div className={styles.rParent}>
-                        <h1 className={styles.r}></h1>
+                        <h1 className={styles.r}>R</h1>
                         <h1 className={styles.r1}>R</h1>
                       </div>
                     </div>
                     <div className={styles.frameWrapper3}>
                       <div className={styles.vParent}>
-                        <h1 className={styles.v}></h1>
+                        <h1 className={styles.v}>V</h1>
                         <h1 className={styles.v1}>V</h1>
                       </div>
                     </div>
